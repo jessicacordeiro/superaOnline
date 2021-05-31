@@ -1,0 +1,156 @@
+.color-top {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background: #F56C26;
+    height: 40px;
+}
+
+.font-family {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-group select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    border-bottom: 3px solid #F56C26;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 15px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.label-float input{
+    width: 600px;
+    padding: 2px 2px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 3px solid #F56C26;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+  
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+  
+.label-float input:focus{
+    border-bottom: 3px solid #F56C26;
+}
+  
+.label-float label{
+    color: gray;
+    pointer-events: none;
+    position: absolute;
+    top: -10px;
+    left: 375px;
+    margin-top: 10px;
+    transition: all .3s ease-out;
+}
+  
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 16px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.label-float-diferente input {
+    width: 445px;
+    padding: 2px 2px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 3px solid #F56C26;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+  
+.label-float-diferente {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+  
+.label-float-diferente input:focus {
+    border-bottom: 3px solid #F56C26;
+}
+  
+.label-float-diferente label {
+    color: gray;
+    pointer-events: none;
+    position: absolute;
+    top: -10px;
+    left: 375px;
+    margin-top: 10px;
+    transition: all .3s ease-out;
+}
+  
+.label-float-diferente input:focus + label,
+.label-float-diferente input:valid + label {
+    font-size: 16px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.caixa {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #F56C26;
+    font-weight: 600;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background: #F56C26;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.caixaDuvidas {
+    text-align: center;
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 40px;
+    border: 3px solid #F56C26;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

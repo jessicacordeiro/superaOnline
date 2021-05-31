@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+
+    <!--Estilização da página-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-flex">
+      <div class="col-md-12 color-top"></div>
+        <div class="row">
+            <div class="col-md-6 ml-5 font-family">
+                <h1 class="text-center m-5">CADASTRAR</h1>
+                <form>
+                    <div class="form-group">
+                        <select>
+                          <option>Escolaridade:</option>  
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="select" class="form-control">
+                          <option>Cargo:</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="select" class="form-control">
+                          <option>Departamento:</option>
+                        </select>
+                    </div>
+                    
+                    <div class= "label-float">
+                        <input type="text" name="nome" id="nome" placeholder="" required>
+                        <label id="userLabel" for="nome">Nome:</label>
+                    </div>
+
+                    <div class= "label-float-diferente">
+                        <input type="text" name="nome" id="nome" placeholder="" required>
+                        <label id="userLabel" for="nome">Data de nascimento:</label>
+                        <select  class="caixa">
+                            <option>Sexo:</option>  
+                        </select>
+                    </div>
+
+                    <div class= "label-float">
+                        <input type="text" name="telefone" id="telefone" placeholder="" required>
+                        <label id="userLabel" for="telefone">Telefone/Celular + DDD:</label>
+                    </div>
+
+                    <div class= "label-float">
+                        <input type="text" name="email" id="email" placeholder="" required>
+                        <label id="userLabel" for="email">Email: *</label>
+                    </div>
+
+                    <div class="label-float font-family">
+                        <input type="password" name="senha" id='senha' placeholder="" required>
+                        <label id="userLabel" for="senha">Senha: *</label>
+                    </div>
+                      <button type="submit" class="btn btn-primary">Voltar</button>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                <div class="caixaDuvidas">
+                    <h2>Perguntas Frequentes</h2>
+                    <h3>Por que preciso fornecer minhas informações pessoais?</h3>
+                    <p>O Supera Online compara o seu desempenho individual com o de pessoas do mesmo sexo, faixa etária e nível de escolaridade para calcular cientificamente seu desempenho nos desafios.
+                    O resultado individual assim como seus dados pessoais são mantidos em sigilo e não serão compartilhado com ninguém.
+                    Obs.: os campos marcados com * são de preenchimento obrigatório.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
