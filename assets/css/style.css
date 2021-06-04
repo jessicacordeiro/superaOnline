@@ -6,9 +6,14 @@
     height: 40px;
 }
 
+.flex-container {
+    display: flex;
+    margin-left: 50px;
+}
+
 .font-family {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -58,7 +63,7 @@
     pointer-events: none;
     position: absolute;
     top: -10px;
-    left: 375px;
+    left: 0px;
     margin-top: 10px;
     transition: all .3s ease-out;
 }
@@ -101,7 +106,7 @@
     pointer-events: none;
     position: absolute;
     top: -10px;
-    left: 375px;
+    left: 0;
     margin-top: 10px;
     transition: all .3s ease-out;
 }
@@ -121,6 +126,7 @@
     font-family: 'Montserrat', sans-serif;
     border: 3px solid #F56C26;
     font-weight: 600;
+    color: gray;
 }
 
 button {
@@ -142,10 +148,10 @@ button:hover {
 
 .caixaDuvidas {
     text-align: center;
-    width: 500px;
-    margin-left: 420px;
+    width: 600px;
     margin-top: 40px;
     border: 3px solid #F56C26;
+    color: black;
 }
 
 p {
@@ -154,3 +160,8 @@ p {
     margin-right: 20px;
 }
 
+img {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+}
